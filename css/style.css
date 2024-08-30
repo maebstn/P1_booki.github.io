@@ -1,6 +1,7 @@
 /****** General ***********/
 * {
 	font-family: 'Raleway', sans-serif;
+	margin: 0;
 }
 
 body {
@@ -20,14 +21,13 @@ a {
 
 h1 {
 	font-size: 22px;
-	margin-bottom: 8px;
 }
 
-h3 {
+h2 {
 	font-size: 18px;
 }
 
-h4 {
+h3 {
 	font-size: 16px;
 }
 
@@ -46,11 +46,12 @@ img {
 	flex-direction: row;
 	justify-content: space-between;
 	width: 100%;
+	margin-bottom: 30px;
 }
 
 .nav img {
 	height: 19px;
-	margin: 30px 0 40px 0;
+	margin: 30px 0 30px 0;
 }
 
 .nav li {
@@ -65,7 +66,15 @@ img {
 	justify-content: space-between;
 }
 
+.category {
+	padding-top: 14px;
+}
+
 .category:hover {
+	border-top: solid #0065fc;
+}
+
+.category:nth-of-type(2n + 1) {
 	border-top: solid #0065fc;
 }
 
@@ -73,6 +82,11 @@ img {
 
 .filter {
 	width: 100%;
+	margin-bottom: 35px;
+}
+
+.filter h1 {
+	margin-bottom: 8px;
 }
 
 form {
@@ -93,7 +107,7 @@ form {
 	border-radius: 15px 0 0 15px;
 }
 
-.bar {
+.searchbar {
 	width: 195px;
 	font-weight: 800;
 	text-align: center;
@@ -125,7 +139,7 @@ input:focus::placeholder {
 	justify-content: space-between;
 	align-items: center;
 	width: 59%;
-	margin-bottom: 10px;
+	margin-bottom: 35px;
 }
 
 .thematique-button {
@@ -174,8 +188,8 @@ input:focus::placeholder {
 .accommodations-and-popular {
 	display: flex;
 	flex-direction: row;
-	margin-top: 30px;
 	width: 100%;
+	margin-bottom: 35px;
 }
 
 span {
@@ -197,14 +211,18 @@ span {
 	border: #f2f2f2;
 	border-radius: 15px;
 	width: 61%;
-	padding: 30px;
+	padding: 30px 30px 0 30px;
+}
+
+.title-accommodations {
+	margin-bottom: 30px;
 }
 
 .accommodations-cards {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	padding-bottom: 30px;
+	margin-bottom: 30px;
 }
 
 .accommodations-cards .card {
@@ -233,7 +251,18 @@ span {
 
 .accommodations-cards .card-description {
 	padding-bottom: 8px;
-	margin: 0;
+	font-size: 14px;
+}
+
+.more p {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.accommodations .fa-star {
+	width: 13px;
+	height: 14px;
+	padding-left: 2px;
 }
 
 /* Popular */
@@ -241,9 +270,13 @@ span {
 .popular {
 	background-color: #f2f2f2;
 	width: 28%;
-	padding: 30px;
+	padding: 30px 30px 0 30px;
 	margin-left: 40px;
 	border-radius: 15px;
+}
+
+.title-popular {
+	margin-bottom: 30px;
 }
 
 .popular-cards {
@@ -262,7 +295,7 @@ span {
 .popular-cards .card {
 	display: flex;
 	flex-direction: row;
-	padding-bottom: 30px;
+	margin-bottom: 30px;
 }
 
 .popular-cards .card-content {
@@ -280,7 +313,7 @@ span {
 }
 
 .popular-cards .card-description {
-	margin: 0;
+	font-size: 14px;
 }
 
 .title-popular {
@@ -294,6 +327,12 @@ span {
 	color: #0065fc;
 	width: 18px;
 	height: 15px;
+}
+
+.popular .fa-star {
+	width: 12px;
+	height: 12px;
+	padding-left: 2px;
 }
 
 /* Activities */
@@ -326,13 +365,11 @@ span {
 .activities .card-text {
 	display: flex;
 	flex-direction: column;
-	padding-left: 19px;
+	padding: 20px 19px 20px 19px;
 }
 
-.more p {
-	margin: 0;
-	font-size: 18px;
-	font-weight: bold;
+.title-activity {
+	margin-bottom: 30px;
 }
 
 /* Footer */
@@ -346,16 +383,23 @@ footer {
 	flex-direction: row;
 }
 
-.footer {
+.under-mentions {
 	display: flex;
 	flex-direction: column;
 	width: 34%;
-	gap: 15px;
-	padding: 0px 0px 20px 20px;
+	padding: 20px 0px 0px 20px;
+}
+
+.under-mentions h2,
+.under-mentions p {
+	margin-bottom: 15px;
+}
+
+.under-mentions p {
+	font-size: 16px;
 }
 
 /* Responsive */
 
 @media (max-width: 375px) {
-	
 }
