@@ -24,10 +24,14 @@ h1 {
 }
 
 h2 {
-	font-size: 18px;
+	font-size: 22px;
 }
 
 h3 {
+	font-size: 18px;
+}
+
+h4 {
 	font-size: 16px;
 }
 
@@ -64,6 +68,7 @@ img {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	align-items: end;
 }
 
 .category {
@@ -71,7 +76,7 @@ img {
 }
 
 .category:hover {
-	border-top: 2px solid #0065fc;
+	border-top: solid #0065fc;
 	color: #0065fc;
 }
 
@@ -138,9 +143,7 @@ input:focus::placeholder {
 .thematique {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
 	align-items: center;
-	width: 59%;
 	margin-bottom: 35px;
 }
 
@@ -403,7 +406,7 @@ footer {
 
 /* Tablette */
 
-@media (max-width: 1180px) {
+@media (min-width: 768px) and (max-width: 1180px) {
 	.main-container {
 		max-width: 1180px;
 		margin: 0 50px 0 50px;
@@ -454,4 +457,7 @@ footer {
 	.footer {
 		width: 69%;
 	}
+}
+
+@media (max-width: 767px) {
 }
