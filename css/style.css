@@ -161,6 +161,7 @@ input:focus::placeholder {
 
 .thematique-button:hover {
 	background-color: #deebff;
+	cursor: pointer;
 }
 
 .thematique .fa-solid {
@@ -238,13 +239,11 @@ span {
 	flex-direction: column;
 	border-radius: 20px;
 	background-color: white;
-	width: 96%;
-	padding: 4px;
+	padding: 5px;
 }
 
 .accommodations-cards .card-content {
-	justify-content: space-around;
-	padding: 4px 11px 11px 11px;
+	padding: 9px 0px 10px 10px;
 }
 
 .accommodations img {
@@ -263,21 +262,23 @@ span {
 	font-size: 14px;
 }
 
-.more p {
-	font-size: 18px;
-	font-weight: bold;
+.accommodations-cards .card-rate {
+	width: 35%;
 }
 
 .accommodations .fa-star {
 	width: 13px;
 	height: 14px;
-	padding-left: 2px;
 }
 
 .accommodations a {
 	width: 31%;
 }
 
+.more p {
+	font-size: 18px;
+	font-weight: bold;
+}
 
 /* Popular */
 
@@ -295,7 +296,6 @@ span {
 .popular-cards {
 	display: flex;
 	flex-direction: column;
-	width: 99%;
 }
 
 .popular img {
@@ -309,20 +309,19 @@ span {
 	flex-direction: row;
 	margin-bottom: 30px;
 	background-color: white;
-	border-radius: 15px;
+	border-radius: 20px;
+	padding: 5px;
 }
 
 .popular-cards .card-content {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	border-radius: 0 15px 15px 0;
-	width: 67%;
-	padding: 0 0 5px 15px;
+	padding: 10px 10px 5px 15px;
 }
 
 .popular-cards .card-title {
-	margin: 15px 0 5px 0;
+	margin-bottom: 5px;
 }
 
 .popular-cards .card-description {
@@ -348,9 +347,6 @@ span {
 	padding-left: 2px;
 }
 
-.popular a {
-	width: 99%;
-}
 
 /* Activities */
 
@@ -438,10 +434,6 @@ footer {
 	.accommodations {
 		width: 100%;
 		margin-bottom: 50px;
-	}
-
-	.accommodations-cards img {
-		width: 268px;
 	}
 
 	.popular {
