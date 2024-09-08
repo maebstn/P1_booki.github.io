@@ -10,7 +10,7 @@ body {
 }
 
 .main-container {
-	max-width: 1440px;
+	max-width: 1340px;
 	width: 100%;
 	margin: 0 50px 0 50px;
 }
@@ -50,7 +50,7 @@ img {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	width: 93%;
+	width: 100%;
 	margin-bottom: 30px;
 }
 
@@ -89,7 +89,7 @@ img {
 /* Search bar and filter */
 
 .filter {
-	width: 93%;
+	width: 100%;
 	margin-bottom: 35px;
 }
 
@@ -195,7 +195,7 @@ input:focus::placeholder {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	width: 93%;
+	width: 100%;
 	margin-bottom: 35px;
 }
 
@@ -230,25 +230,27 @@ span {
 	flex-direction: row;
 	justify-content: space-between;
 	margin-bottom: 30px;
+	width: 100%;
 }
 
 .accommodations-cards .card {
 	display: flex;
 	flex-direction: column;
-	border-radius: 15px;
+	border-radius: 20px;
+	background-color: white;
+	width: 96%;
+	padding: 4px;
 }
 
 .accommodations-cards .card-content {
-	background-color: white;
-	border-radius: 0 0 15px 15px;
-	padding: 4px 15px 15px 15px;
+	justify-content: space-around;
+	padding: 4px 11px 11px 11px;
 }
 
 .accommodations img {
-	width: 250px;
+	width: 100%;
 	height: 124px;
 	border-radius: 15px 15px 0 0;
-	border: 4px solid white;
 }
 
 .accommodations-cards .card-title {
@@ -272,6 +274,11 @@ span {
 	padding-left: 2px;
 }
 
+.accommodations a {
+	width: 31%;
+}
+
+
 /* Popular */
 
 .popular {
@@ -288,27 +295,27 @@ span {
 .popular-cards {
 	display: flex;
 	flex-direction: column;
-	width: 100%;
+	width: 99%;
 }
 
 .popular img {
-	width: 123px;
-	height: 146px;
-	border-radius: 15px 0 0 15px;
-	border: 4px solid white;
+	width: 32%;
+    height: 146px;
+    border-radius: 15px 0 0 15px;
 }
 
 .popular-cards .card {
 	display: flex;
 	flex-direction: row;
 	margin-bottom: 30px;
+	background-color: white;
+	border-radius: 15px;
 }
 
 .popular-cards .card-content {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	background-color: white;
 	border-radius: 0 15px 15px 0;
 	width: 67%;
 	padding: 0 0 5px 15px;
@@ -341,6 +348,10 @@ span {
 	padding-left: 2px;
 }
 
+.popular a {
+	width: 99%;
+}
+
 /* Activities */
 
 .activities {
@@ -358,7 +369,7 @@ span {
 }
 
 .activities img {
-	width: 297px;
+	width: 100%;
 	height: 380px;
 	border-radius: 20px 20px 0 0;
 }
@@ -378,10 +389,14 @@ span {
 	margin-bottom: 30px;
 }
 
+.activities a {
+	width: 23%;
+}
+
 /* Footer */
 
 footer {
-	width: 93%;
+	width: 100%;
 	background-color: #f2f2f2;
 	display: flex;
 	flex-direction: row;
