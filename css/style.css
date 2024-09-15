@@ -175,6 +175,7 @@ input:focus::placeholder {
 	font-size: 17px;
 	padding: 14px 19px 14px 19px;
 	gap: 10px;
+	white-space: nowrap;
 }
 
 .buttons-filters {
@@ -243,7 +244,6 @@ input:focus::placeholder {
 /* Hébergements */
 .hebergements {
 	width: 65%;
-	white-space: nowrap;
 }
 
 .title-hebergements {
@@ -293,7 +293,7 @@ input:focus::placeholder {
 }
 
 .hebergements a {
-	width: 31%;
+	width: 32%;
 }
 
 .more p {
@@ -535,6 +535,11 @@ footer {
 	header {
 		flex-direction: column;
 		align-items: center;
+	}
+
+	.nav-logo img {
+		width: 18%;
+		height: auto;
 	}
 
 	.nav-logo {
