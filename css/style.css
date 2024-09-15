@@ -231,7 +231,6 @@ input:focus::placeholder {
 	justify-content: space-between;
 	width: 100%;
 	margin-bottom: 35px;
-	white-space: nowrap;
 }
 
 .hebergements-and-populaires section {
@@ -241,10 +240,10 @@ input:focus::placeholder {
 	box-sizing: border-box;
 }
 
-/*HÃ©bergements */
-
+/* Hébergements */
 .hebergements {
 	width: 65%;
+	white-space: nowrap;
 }
 
 .title-hebergements {
