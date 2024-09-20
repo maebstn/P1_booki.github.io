@@ -84,7 +84,7 @@ header {
 	color: #0065fc;
 }
 
-/* Search bar and search-container */
+/* Search-container */
 
 .search-container {
 	width: 100%;
@@ -223,7 +223,8 @@ input:focus::placeholder {
 	font-size: 16px;
 }
 
-/*HÃ©bergements and Populaires */
+/*Accomodations and popular */
+
 .euro {
 	font-weight: 700;
 }
@@ -251,7 +252,8 @@ input:focus::placeholder {
 	box-sizing: border-box;
 }
 
-/* Hébergements */
+/* Accomodations*/
+
 .accomodations {
 	width: 65%;
 }
@@ -317,7 +319,7 @@ input:focus::placeholder {
 	font-weight: bold;
 }
 
-/* Populaires */
+/* Popular */
 
 .popular {
 	width: 32%;
@@ -464,6 +466,7 @@ footer {
 
 /****** Media queries ***********/
 /* Tablette */
+
 @media (max-width: 1024px) {
 	.btn-magnify {
 		display: none;
